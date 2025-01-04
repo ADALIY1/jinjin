@@ -1,4 +1,4 @@
 # 中国大陆地区 IPTV 规则
-DOMAIN-SUFFIX,wasulive.cmdns.xyz,DIRECT
-DOMAIN-SUFFIX,bestlive.cmdns.xyz,DIRECT
-DOMAIN-SUFFIX,ystenlive.cmdns.xyz,DIRECT
+DOMAIN-SUFFIX,wasulive.cmdns.xyz
+DOMAIN-SUFFIX,bestlive.cmdns.xyz
+DOMAIN-SUFFIX,ystenlive.cmdns.xyz
