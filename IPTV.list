@@ -1,4 +1,5 @@
 # 中国大陆地区 IPTV 规则
+# doube-itv规则
 DOMAIN-SUFFIX,wasulive.internetprotocoltelevision.top
 DOMAIN-SUFFIX,ystenlive.internetprotocoltelevision.top
 DOMAIN-SUFFIX,bestlive.internetprotocoltelevision.top
