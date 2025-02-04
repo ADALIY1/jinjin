@@ -9,3 +9,6 @@ DOMAIN-SUFFIX,fifalive.internetprotocoltelevision.top
 
 # IPTV研究所 央视规则
 DOMAIN-SUFFIX,jialiyun.4kemby.pl
+
+# 肥羊 rptv 规则
+DOMAIN-SUFFIX,myip.ipip.net
