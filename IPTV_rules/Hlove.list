@@ -6,20 +6,20 @@
 # DOMAIN-KEYWORD: 1
 # DOMAIN-SUFFIX: 2
 # TOTAL: 4
-payload:
-    - DOMAIN-KEYWORD,hlove
-    - DOMAIN-SUFFIX,hlove.tv
-    - DOMAIN-SUFFIX,iptv200.com
-    - DOMAIN-SUFFIX,ymedium.top
-    - DOMAIN-SUFFIX,mytvsuper.com.mp
-    - DOMAIN-SUFFIX,mytvsuper.us.kg
-    - DOMAIN-SUFFIX,gditv.us.kg
-    - DOMAIN-SUFFIX,creativehub.sbs
-    - DOMAIN-SUFFIX,cloudflareclient.com
-    - DOMAIN-SUFFIX,vip-tptv.xyz
-    - DOMAIN-SUFFIX,cloudflare.com
-    - DOMAIN-SUFFIX,plusai.me
-    - DOMAIN-SUFFIX,akile.io
+# payload:
+DOMAIN-KEYWORD,hlove
+DOMAIN-SUFFIX,hlove.tv
+DOMAIN-SUFFIX,iptv200.com
+DOMAIN-SUFFIX,ymedium.top
+DOMAIN-SUFFIX,mytvsuper.com.mp
+DOMAIN-SUFFIX,mytvsuper.us.kg
+DOMAIN-SUFFIX,gditv.us.kg
+DOMAIN-SUFFIX,creativehub.sbs
+DOMAIN-SUFFIX,cloudflareclient.com
+DOMAIN-SUFFIX,vip-tptv.xyz
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,plusai.me
+DOMAIN-SUFFIX,akile.io
 
 # 以下TVB规则任何海外节点都可以
 # NAME: TVB
