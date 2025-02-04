@@ -2,11 +2,13 @@
 
 # IPTV研究所
 # NAME: ASTRO
-# DOMAIN: 1
-# DOMAIN-KEYWORD: 1
-# DOMAIN-SUFFIX: 2
-# TOTAL: 4
-# payload:
+# AUTHOR: judy
+# REPO: https://github.com/btjson/loon/
+# UPDATED: 2025-01-25 05:36:35
+# DOMAIN: 3
+# DOMAIN-SUFFIX: 18
+# USER-AGENT: 2
+# TOTAL: 23
 DOMAIN-SUFFIX,githubusercontent.com
 DOMAIN-SUFFIX,unifi.com.my
 DOMAIN-SUFFIX,hypp.tv
