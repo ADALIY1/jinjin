@@ -1,3 +1,5 @@
 # NAME: SmartTV规则
 
 IP-CIDR,199.245.101.26/32
+
+DOMAIN-SUFFIX,iptv.huohuo.live
