@@ -20,6 +20,5 @@ USER-AGENT,hinet*
 
 # doube-itv
 # NAME: ofiii规则
-DOMAIN-SUFFIX,ofiii.com
-DOMAIN-SUFFIX,akamaized.net
-DOMAIN-SUFFIX,cdn.hinet.net
+DOMAIN-SUFFIX,*.ofiii.com
+DOMAIN-SUFFIX,*.akamaized.net
