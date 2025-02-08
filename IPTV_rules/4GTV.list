@@ -17,8 +17,3 @@ DOMAIN-SUFFIX,4gtv.livednow.us.kg
 DOMAIN-SUFFIX,*.cdn.hinet.net
 USER-AGENT,encorehinet*
 USER-AGENT,hinet*
-
-# doube-itv
-# NAME: ofiii
-DOMAIN-SUFFIX,*.ofiii.com
-DOMAIN-SUFFIX,*.akamaized.net
