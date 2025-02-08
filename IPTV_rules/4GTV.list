@@ -20,7 +20,6 @@ USER-AGENT,hinet*
 
 # doube-itv
 # NAME: ofiii规则
-DOMAIN-SUFFIX,cdi.ofiii.com
-DOMAIN-SUFFIX,ntdofifreepc.akamaized.net
-DOMAIN-SUFFIX,ntdofifreepocpc.akamaized.net
-DOMAIN-SUFFIX,ofissaifreepc.akamaized.net
+DOMAIN-SUFFIX,ofiii.com
+DOMAIN-SUFFIX,akamaized.net
+DOMAIN-SUFFIX,cdn.hinet.net
