@@ -1,14 +1,14 @@
 # 以下全为直连
 # 中国大陆地区 IPTV 规则
-# doube-itv规则
+# doube-itv
 DOMAIN-SUFFIX,wasulive.internetprotocoltelevision.top
 DOMAIN-SUFFIX,ystenlive.internetprotocoltelevision.top
 DOMAIN-SUFFIX,bestlive.internetprotocoltelevision.top
 DOMAIN-SUFFIX,hnbblive.internetprotocoltelevision.top
 DOMAIN-SUFFIX,fifalive.internetprotocoltelevision.top
 
-# IPTV研究所 央视规则
+# IPTV研究所 
 DOMAIN-SUFFIX,jialiyun.4kemby.pl
 
-# 肥羊 rptv 规则
+# 肥羊 rptv 
 DOMAIN-SUFFIX,myip.ipip.net
