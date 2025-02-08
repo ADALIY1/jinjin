@@ -19,6 +19,6 @@ USER-AGENT,encorehinet*
 USER-AGENT,hinet*
 
 # doube-itv
-# NAME: ofiii规则
+# NAME: ofiii
 DOMAIN-SUFFIX,*.ofiii.com
 DOMAIN-SUFFIX,*.akamaized.net
