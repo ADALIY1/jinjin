@@ -18,3 +18,9 @@ DOMAIN-SUFFIX,*.cdn.hinet.net
 USER-AGENT,encorehinet*
 USER-AGENT,hinet*
 DOMAIN-SUFFIX,litv.tv
+
+# NAME: ofiii
+DOMAIN-SUFFIX,*.ofiii.com
+DOMAIN-SUFFIX,*.akamaized.net
+DOMAIN-SUFFIX,ofiii.com
+DOMAIN-SUFFIX,akamaized.net
