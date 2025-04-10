@@ -1,0 +1,365 @@
+allow-lan: true
+authentication:
+- HJ:389233
+bind-address: '*'
+dns:
+  direct-nameserver:
+  - tcp://192.168.10.5:53
+  - 192.168.10.5:53
+  enable: true
+  enhanced-mode: fake-ip
+  fake-ip-filter:
+  - '*.lan'
+  - '*.localdomain'
+  - '*.example'
+  - '*.invalid'
+  - '*.localhost'
+  - '*.test'
+  - '*.local'
+  - '*.home.arpa'
+  - time.*.com
+  - time.*.gov
+  - time.*.edu.cn
+  - time.*.apple.com
+  - time-ios.apple.com
+  - time1.*.com
+  - time2.*.com
+  - time3.*.com
+  - time4.*.com
+  - time5.*.com
+  - time6.*.com
+  - time7.*.com
+  - ntp.*.com
+  - ntp1.*.com
+  - ntp2.*.com
+  - ntp3.*.com
+  - ntp4.*.com
+  - ntp5.*.com
+  - ntp6.*.com
+  - ntp7.*.com
+  - '*.time.edu.cn'
+  - '*.ntp.org.cn'
+  - +.pool.ntp.org
+  - speedtest.net
+  - www.speedtest.net
+  - fast.com
+  - '*.speed.cloudflare.com'
+  - time1.cloud.tencent.com
+  - music.163.com
+  - '*.music.163.com'
+  - '*.126.net'
+  - musicapi.taihe.com
+  - music.taihe.com
+  - songsearch.kugou.com
+  - trackercdn.kugou.com
+  - '*.kuwo.cn'
+  - api-jooxtt.sanook.com
+  - api.joox.com
+  - joox.com
+  - y.qq.com
+  - '*.y.qq.com'
+  - streamoc.music.tc.qq.com
+  - mobileoc.music.tc.qq.com
+  - isure.stream.qqmusic.qq.com
+  - dl.stream.qqmusic.qq.com
+  - aqqmusic.tc.qq.com
+  - amobile.music.tc.qq.com
+  - '*.xiami.com'
+  - '*.music.migu.cn'
+  - music.migu.cn
+  - +.msftconnecttest.com
+  - +.msftncsi.com
+  - localhost.ptlogin2.qq.com
+  - localhost.sec.qq.com
+  - +.qq.com
+  - +.tencent.com
+  - +.srv.nintendo.net
+  - '*.n.n.srv.nintendo.net'
+  - +.cdn.nintendo.net
+  - +.stun.playstation.net
+  - xbox.*.*.microsoft.com
+  - '*.*.xboxlive.com'
+  - xbox.*.microsoft.com
+  - xnotify.xboxlive.com
+  - +.battlenet.com.cn
+  - +.wotgame.cn
+  - +.wggames.cn
+  - +.wowsgame.cn
+  - +.wargaming.net
+  - proxy.golang.org
+  - stun.*.*
+  - stun.*.*.*
+  - +.stun.*.*
+  - +.stun.*.*.*
+  - +.stun.*.*.*.*
+  - +.stun.*.*.*.*.*
+  - heartbeat.belkin.com
+  - '*.linksys.com'
+  - '*.linksyssmartwifi.com'
+  - '*.router.asus.com'
+  - mesu.apple.com
+  - swscan.apple.com
+  - swquery.apple.com
+  - swdownload.apple.com
+  - swcdn.apple.com
+  - swdist.apple.com
+  - lens.l.google.com
+  - stun.l.google.com
+  - na.b.g-tun.com
+  - +.nflxvideo.net
+  - '*.square-enix.com'
+  - '*.finalfantasyxiv.com'
+  - '*.ffxiv.com'
+  - '*.ff14.sdo.com'
+  - ff.dorado.sdo.com
+  - '*.mcdn.bilivideo.cn'
+  - +.media.dssott.com
+  - shark007.net
+  - Mijia Cloud
+  - +.cmbchina.com
+  - +.cmbimg.com
+  - local.adguard.org
+  - +.sandai.net
+  - +.n0808.com
+  - +.uu.163.com
+  - ps.res.netease.com
+  - +.services.googleapis.cn
+  - geosite:cn
+  fake-ip-filter-mode: blacklist
+  fake-ip-range: 198.19.0.1/16
+  ipv6: true
+  listen: 0.0.0.0:7874
+  nameserver:
+  - dhcp://"pppoe-WAN"
+  - 172.31.0.1
+  - '[fe80::7ea2:3eff:fe89:d915]:53'
+  - 218.202.152.130
+  - 218.202.152.131
+  - '[2409:807c:2000::]:53'
+  - '[2409:807c:2000:1::]:53'
+  - tcp://192.168.10.5:53
+  - 192.168.10.5:53
+external-controller: 0.0.0.0:9090
+external-ui: /usr/share/openclash/ui
+geodata-mode: true
+ipv6: true
+keep-alive-idle: 600
+keep-alive-interval: 15
+log-level: info
+mixed-port: 7893
+mode: rule
+port: 7890
+profile:
+  store-fake-ip: true
+  store-selected: true
+redir-port: 7892
+rule-providers:
+  ASTRO:
+    behavior: classical
+    interval: 86400
+    path: ./rule_provider/rule-provider_ASTRO.yaml
+    type: http
+    url: https://yaml.hejinhome.cn:25501/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2J0anNvbi9sb29uL3JlZnMvaGVhZHMvbWFpbi9BU1RSTy5saXN0
+  Copilot:
+    behavior: classical
+    interval: 28800
+    path: ./rule_provider/rule-provider_Copilot.yaml
+    type: http
+    url: https://yaml.hejinhome.cn:25501/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsYWNrbWF0cml4Ny9pb3NfcnVsZV9zY3JpcHQvbWFzdGVyL3J1bGUvQ2xhc2gvQ29waWxvdC9Db3BpbG90Lmxpc3Q
+  Custom_Direct:
+    behavior: classical
+    interval: 28800
+    path: ./rule_provider/rule-provider_Custom_Direct.yaml
+    type: http
+    url: https://yaml.hejinhome.cn:25501/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FldGhlcnNhaWxvci9DdXN0b21fT3BlbkNsYXNoX1J1bGVzL21haW4vcnVsZS9DdXN0b21fRGlyZWN0Lmxpc3Q
+  Custom_Proxy:
+    behavior: classical
+    interval: 28800
+    path: ./rule_provider/rule-provider_Custom_Proxy.yaml
+    type: http
+    url: https://yaml.hejinhome.cn:25501/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FldGhlcnNhaWxvci9DdXN0b21fT3BlbkNsYXNoX1J1bGVzL21haW4vcnVsZS9DdXN0b21fUHJveHkubGlzdA
+  Direct:
+    behavior: classical
+    interval: 28800
+    path: ./rule_provider/rule-provider_Direct.yaml
+    type: http
+    url: https://yaml.hejinhome.cn:25501/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsYWNrbWF0cml4Ny9pb3NfcnVsZV9zY3JpcHQvbWFzdGVyL3J1bGUvQ2xhc2gvRGlyZWN0L0RpcmVjdC5saXN0
+  Emby:
+    behavior: classical
+    interval: 28800
+    path: ./rule_provider/rule-provider_Emby.yaml
+    type: http
+    url: https://yaml.hejinhome.cn:25501/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsYWNrbWF0cml4Ny9pb3NfcnVsZV9zY3JpcHQvbWFzdGVyL3J1bGUvQ2xhc2gvRW1ieS9FbWJ5Lmxpc3Q
+  Emby_2:
+    behavior: classical
+    interval: 28800
+    path: ./rule_provider/rule-provider_Emby_2.yaml
+    type: http
+    url: https://yaml.hejinhome.cn:25501/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2RkZ2tzZjIwMTMvRmlsdGVyL3JlZnMvaGVhZHMvbWFzdGVyL0VtYnkubGlzdA
+  Game_Download_CDN:
+    behavior: classical
+    interval: 28800
+    path: ./rule_provider/rule-provider_Game_Download_CDN.yaml
+    type: http
+    url: https://yaml.hejinhome.cn:25501/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FldGhlcnNhaWxvci9DdXN0b21fT3BlbkNsYXNoX1J1bGVzL21haW4vcnVsZS9HYW1lX0Rvd25sb2FkX0NETi5saXN0
+  Hami:
+    behavior: classical
+    interval: 86400
+    path: ./rule_provider/rule-provider_Hami.yaml
+    type: http
+    url: https://yaml.hejinhome.cn:25501/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2J0anNvbi9sb29uL3JlZnMvaGVhZHMvbWFpbi9IYW1pLmxpc3Q
+  IPTV:
+    behavior: classical
+    interval: 86400
+    path: ./rule_provider/rule-provider_IPTV.yaml
+    type: http
+    url: https://yaml.hejinhome.cn:25501/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FEQUxJWTEvLS9yZWZzL2hlYWRzL21haW4vSVBUVi5saXN0
+  SmartTV:
+    behavior: classical
+    interval: 86400
+    path: ./rule_provider/rule-provider_SmartTV.yaml
+    type: http
+    url: https://yaml.hejinhome.cn:25501/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FEQUxJWTEvLS9yZWZzL2hlYWRzL21haW4vSVBUVl9ydWxlcy9TbWFydFRWLmxpc3Q
+  Speedtest:
+    behavior: classical
+    interval: 28800
+    path: ./rule_provider/rule-provider_Speedtest.yaml
+    type: http
+    url: https://yaml.hejinhome.cn:25501/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsYWNrbWF0cml4Ny9pb3NfcnVsZV9zY3JpcHQvbWFzdGVyL3J1bGUvQ2xhc2gvU3BlZWR0ZXN0L1NwZWVkdGVzdC5saXN0
+  Steam_CDN:
+    behavior: classical
+    interval: 28800
+    path: ./rule_provider/rule-provider_Steam_CDN.yaml
+    type: http
+    url: https://yaml.hejinhome.cn:25501/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FldGhlcnNhaWxvci9DdXN0b21fT3BlbkNsYXNoX1J1bGVzL21haW4vcnVsZS9TdGVhbV9DRE4ubGlzdA
+  TVB:
+    behavior: classical
+    interval: 86400
+    path: ./rule_provider/rule-provider_TVB.yaml
+    type: http
+    url: https://yaml.hejinhome.cn:25501/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2J0anNvbi9sb29uL3JlZnMvaGVhZHMvbWFpbi9UVkIubGlzdA
+  happytv:
+    behavior: classical
+    interval: 86400
+    path: ./rule_provider/rule-provider_happytv.yaml
+    type: http
+    url: https://yaml.hejinhome.cn:25501/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FEQUxJWTEvLS9yZWZzL2hlYWRzL21haW4vSVBUVl9ydWxlcy9oYXBweXR2Lmxpc3Q
+  judy_iptv:
+    behavior: classical
+    interval: 86400
+    path: ./rule_provider/rule-provider_judy_iptv.yaml
+    type: http
+    url: https://yaml.hejinhome.cn:25501/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FEQUxJWTEvLS9yZWZzL2hlYWRzL21haW4vanVkeV9pcHR2Lmxpc3Q
+  ofiii:
+    behavior: classical
+    interval: 86400
+    path: ./rule_provider/rule-provider_ofiii.yaml
+    type: http
+    url: https://yaml.hejinhome.cn:25501/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FEQUxJWTEvLS9yZWZzL2hlYWRzL21haW4vSVBUVl9ydWxlcy9vZmlpaS5saXN0
+  plutotv:
+    behavior: classical
+    interval: 86400
+    path: ./rule_provider/rule-provider_plutotv.yaml
+    type: http
+    url: https://yaml.hejinhome.cn:25501/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FEQUxJWTEvLS9yZWZzL2hlYWRzL21haW4vcGx1dG90di5saXN0
+rules:
+- GEOSITE,private,🎯 全球直连
+- GEOIP,private,🎯 全球直连,no-resolve
+- RULE-SET,Custom_Direct,🎯 全球直连
+- RULE-SET,Custom_Proxy,🚀 手动选择
+- RULE-SET,Direct,🎯 全球直连
+- GEOSITE,google-cn,🎯 全球直连
+- GEOSITE,category-games@cn,🎯 全球直连
+- RULE-SET,Steam_CDN,🎯 全球直连
+- RULE-SET,Game_Download_CDN,🎯 全球直连
+- GEOSITE,category-public-tracker,🎯 全球直连
+- GEOSITE,category-communication,💬 即时通讯
+- GEOSITE,category-social-media-!cn,🌐 社交媒体
+- GEOSITE,openai,🤖 ChatGPT
+- RULE-SET,Copilot,🤖 Copilot
+- GEOSITE,category-ai-!cn,🤖 AI服务
+- GEOSITE,github,🚀 GitHub
+- RULE-SET,Speedtest,🚀 测速工具
+- GEOSITE,youtube,📹 YouTube
+- GEOSITE,apple-tvplus,🎥 AppleTV+
+- GEOSITE,apple,🍎 苹果服务
+- GEOSITE,microsoft,Ⓜ️ 微软服务
+- GEOSITE,googlefcm,📢 谷歌FCM
+- GEOSITE,google,🇬 谷歌服务
+- GEOSITE,tiktok,🎶 TikTok
+- GEOSITE,netflix,🎥 Netflix
+- GEOSITE,disney,🎥 DisneyPlus
+- GEOSITE,hbo,🎥 HBO
+- GEOSITE,primevideo,🎥 PrimeVideo
+- RULE-SET,Emby,🎥 Emby
+- RULE-SET,Emby_2,🎥 Emby
+- GEOSITE,spotify,🎻 Spotify
+- GEOSITE,bahamut,📺 Bahamut
+- RULE-SET,IPTV,📺 国内媒体
+- RULE-SET,judy_iptv,📺 IPTV研究所
+- RULE-SET,Hami,📺 4GTV
+- RULE-SET,ofiii,📺 4GTV
+- RULE-SET,ASTRO,📺 ASTRO
+- RULE-SET,TVB,📺 Hlove
+- RULE-SET,SmartTV,📺 SmartTV
+- RULE-SET,happytv,📺 HappyTV
+- RULE-SET,plutotv,📺 pluto
+- GEOSITE,steam,🎮 Steam
+- GEOSITE,category-games,🎮 游戏平台
+- GEOSITE,category-entertainment,🌎 国外媒体
+- GEOSITE,category-ecommerce,🛒 国外电商
+- GEOSITE,gfw,🚀 手动选择
+- GEOIP,telegram,💬 即时通讯,no-resolve
+- GEOIP,twitter,🌐 社交媒体,no-resolve
+- GEOIP,facebook,🌐 社交媒体,no-resolve
+- GEOIP,google,🇬 谷歌服务,no-resolve
+- GEOIP,netflix,🎥 Netflix,no-resolve
+- GEOSITE,cn,🎯 全球直连
+- GEOIP,cn,🎯 全球直连,no-resolve
+- MATCH,🐟 漏网之鱼
+secret: '123456'
+sniffer:
+  enable: true
+  force-dns-mapping: true
+  force-domain:
+  - +.netflix.com
+  - +.nflxvideo.net
+  - +.amazonaws.com
+  - +.media.dssott.com
+  override-destination: false
+  parse-pure-ip: true
+  skip-domain:
+  - +.apple.com
+  - Mijia Cloud
+  - dlg.io.mi.com
+  - +.oray.com
+  - +.sunlogin.net
+  - +.push.apple.com
+  sniff:
+    HTTP:
+      override-destination: true
+      ports:
+      - 80
+      - 8080-8880
+    QUIC:
+      ports:
+      - 443
+    TLS:
+      ports:
+      - 443
+      - 8443
+socks-port: 7891
+tcp-concurrent: true
+tproxy-port: 7895
+tun:
+  auto-detect-interface: false
+  auto-redirect: false
+  auto-route: false
+  device: utun
+  dns-hijack:
+  - 127.0.0.1:53
+  enable: true
+  endpoint-independent-nat: true
+  stack: gvisor
+  strict-route: false
+unified-delay: true
