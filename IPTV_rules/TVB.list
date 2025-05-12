@@ -1,0 +1,4 @@
+# 以下规则走香港节点
+
+DOMAIN-SUFFIX,tcp://php.jdshipin.com
+DOMAIN-SUFFIX,tcp://smt.1789.dpdns.org
