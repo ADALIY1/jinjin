@@ -1,21 +1,8 @@
 # 以下规则走台湾节点
 
-# IPTV研究所
-# NAME: Hami
-# AUTHOR: judy
-# REPO: https://github.com/btjson/loon/
-# UPDATED: 2024-09-16 05:36:35
-# DOMAIN: 3
-# DOMAIN-SUFFIX: 18
-# USER-AGENT: 2
-# TOTAL: 23
-DOMAIN-SUFFIX,ntdfreevcpc-tgc.cdn.hinet.net
-DOMAIN-SUFFIX,litvpc-hichannel.cdn.hinet.net
-DOMAIN-SUFFIX,4gtvfree-cds.cdn.hinet.net
-DOMAIN-SUFFIX,cdn.hinet.net
-DOMAIN-SUFFIX,4gtv.livednow.us.kg
-DOMAIN-SUFFIX,*.cdn.hinet.net
-USER-AGENT,encorehinet*
-USER-AGENT,hinet*
-DOMAIN-SUFFIX,litv.tv
-DOMAIN-SUFFIX,ceshi5.hg16888.vip
+DOMAIN-SUFFIX,http://ofissaifreepc.akamaized.net
+DOMAIN-SUFFIX,http://litvpc-hichannel.cdn.hinet.net
+DOMAIN-SUFFIX,http://4gtvfree-cds.cdn.hinet.net
+DOMAIN-SUFFIX,http://4gtvfree-mozai.4gtv.tv
+DOMAIN-SUFFIX,http://4gtvfreepc-cds.cdn.hinet.net
+DOMAIN-SUFFIX,http://ntd-tgc.cdn.hinet.net
