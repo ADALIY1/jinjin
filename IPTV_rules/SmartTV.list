@@ -1,6 +1,6 @@
 # NAME: SmartTV
 #以下节点走美国节点
 
-DOMAIN-SUFFIX,http://smart.pendy.dpdns.org
-DOMAIN-SUFFIX,http://sport.pendy.dpdns.org
-DOMAIN-SUFFIX,http://docker.livednow.dpdns.org
+DOMAIN-SUFFIX,smart.pendy.dpdns.org
+DOMAIN-SUFFIX,sport.pendy.dpdns.org
+DOMAIN-SUFFIX,docker.livednow.dpdns.org
