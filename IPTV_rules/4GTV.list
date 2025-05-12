@@ -10,6 +10,7 @@ DOMAIN-SUFFIX,＊.cdn.hinet.net
 DOMAIN-SUFFIX,ofiii.com
 DOMAIN-SUFFIX,akamaized.net
 DOMAIN-SUFFIX,api.floors.dev
+# 巴哈姆特规则
 DOMAIN,bahamut.akamaized.net
 DOMAIN-SUFFIX,bahamut.com.tw
 DOMAIN-SUFFIX,digicert.com
@@ -17,8 +18,10 @@ DOMAIN-SUFFIX,gamer.com.tw
 DOMAIN-SUFFIX,gvt1.com
 DOMAIN-SUFFIX,hinet.net
 DOMAIN-SUFFIX,viblast.com
+# 四季线上4gtv规则
 DOMAIN-SUFFIX,4gtv.tv
 DOMAIN-SUFFIX,api2.4gtv.tv
 DOMAIN-SUFFIX,4gtvfreemobile-cds.cdn.hinet.net
+# litv线上影视
 DOMAIN-SUFFIX,litv.tv
 DOMAIN-SUFFIX,litvfreemobile-hichannel.cdn.hinet.net
