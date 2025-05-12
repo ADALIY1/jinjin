@@ -1,7 +1,6 @@
 # NAME: SmartTV
+#以下节点走美国节点
 
-IP-CIDR,199.245.101.26/32
-IP-CIDR,50.7.234.10/32
-
-DOMAIN-SUFFIX,iptv.huohuo.live
-DOMAIN-SUFFIX,huohuo.live
+DOMAIN-SUFFIX,http://smart.pendy.dpdns.org
+DOMAIN-SUFFIX,http://sport.pendy.dpdns.org
+DOMAIN-SUFFIX,http://docker.livednow.dpdns.org
