@@ -1,5 +1,5 @@
 # NAME: SmartTV
-#以下节点走美国节点
+# 以下节点走美国节点
 
 DOMAIN-SUFFIX,smart.pendy.dpdns.org
 DOMAIN-SUFFIX,sport.pendy.dpdns.org
