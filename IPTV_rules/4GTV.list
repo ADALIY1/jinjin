@@ -25,3 +25,5 @@ DOMAIN-SUFFIX,4gtvfreemobile-cds.cdn.hinet.net
 # litv线上影视
 DOMAIN-SUFFIX,litv.tv
 DOMAIN-SUFFIX,litvfreemobile-hichannel.cdn.hinet.net
+# ofiii点播
+DOMAIN-SUFFIX,4gtv.livednow.dpdns.org
