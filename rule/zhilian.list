@@ -1,7 +1,9 @@
 # 以下规则走直连
+
 # 以下为常用网站
 DOMAIN-SUFFIX,samsungapps.com
 DOMAIN-SUFFIX,0be.net
+
 # 以下为emby服务器
 DOMAIN-SUFFIX,film.recmata.net
 DOMAIN-SUFFIX,lumini.recmata.net
