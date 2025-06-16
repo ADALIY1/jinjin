@@ -2,3 +2,6 @@
 
 DOMAIN-SUFFIX,tv.ash.yt
 DOMAIN-SUFFIX,tv.000115.xyz
+
+# 以下规则不能用中，日节点
+DOMAIN-SUFFIX,ald.emby.moe
