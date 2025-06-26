@@ -7,7 +7,7 @@
 proxy-providers:
 
   新狮云:
-    url: "机场订阅地址
+    url: "机场订阅地址"
     type: http
     interval: 86400
     health-check:
@@ -17,7 +17,7 @@ proxy-providers:
     proxy: 直连 
     
   RecMata:
-    url: "机场订阅地址
+    url: "机场订阅地址"
     type: http
     interval: 86400
     health-check:
@@ -27,7 +27,7 @@ proxy-providers:
     proxy: 直连    
 
   快充云:
-    url: "机场订阅地址
+    url: "机场订阅地址"
     type: http
     interval: 86400
     health-check:
@@ -37,7 +37,7 @@ proxy-providers:
     proxy: 直连    
 
 # 冰云:
-#    url: "机场订阅地址
+#    url: "机场订阅地址"
 #    type: http
 #   interval: 86400
 #   health-check:
@@ -47,7 +47,7 @@ proxy-providers:
 #    proxy: 直连      
   
   ChatGPT:
-    url: "机场订阅地址
+    url: "机场订阅地址"
     type: http
     interval: 86400
     health-check:
@@ -57,7 +57,7 @@ proxy-providers:
     proxy: 直连   
    
   自建tw:
-    url: "机场订阅地址
+    url: "机场订阅地址"
     type: http
     interval: 86400
     health-check:
@@ -67,7 +67,7 @@ proxy-providers:
     proxy: 直连
     
   自建us:
-    url: "机场订阅地址
+    url: "机场订阅地址"
     type: http
     interval: 86400
     health-check:
@@ -77,7 +77,7 @@ proxy-providers:
     proxy: 直连     
     
   自建hk:
-    url: "机场订阅地址
+    url: "机场订阅地址"
     type: http
     interval: 86400
     health-check:
@@ -87,7 +87,7 @@ proxy-providers:
     proxy: 直连     
     
   渔云:
-    url: "机场订阅地址
+    url: "机场订阅地址"
     type: http
     interval: 86400
     health-check:
@@ -97,7 +97,7 @@ proxy-providers:
     proxy: 直连
     
   阿拉丁:
-    url: "机场订阅地址
+    url: "机场订阅地址"
     type: http
     interval: 86400
     health-check:
