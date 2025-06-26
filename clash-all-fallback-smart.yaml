@@ -251,7 +251,7 @@ proxy-groups:
   - {name: Google, <<: *default}
 #  - {name: Nvidia, <<: *default}
   - {name: Steam, <<: *default}
-  - {name: Game, <<: *default}
+  - {name: Games, <<: *default}
   - {name: Crypto, <<: *default}
   - {name: Test, <<: *default}
   - {name: Block, <<: *default}
