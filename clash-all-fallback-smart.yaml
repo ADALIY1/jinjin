@@ -7,7 +7,7 @@
 proxy-providers:
 
   新狮云:
-    url: "http://192.168.88.6:3008/T3B9dgzBzdRbBF8Aqx7P/download/cloudlion"
+    url: "机场订阅地址
     type: http
     interval: 86400
     health-check:
@@ -17,7 +17,7 @@ proxy-providers:
     proxy: 直连 
     
   RecMata:
-    url: "http://192.168.88.6:3008/T3B9dgzBzdRbBF8Aqx7P/download/RecMata"
+    url: "机场订阅地址
     type: http
     interval: 86400
     health-check:
@@ -27,7 +27,7 @@ proxy-providers:
     proxy: 直连    
 
   快充云:
-    url: "http://192.168.88.6:3008/T3B9dgzBzdRbBF8Aqx7P/download/0be.net"
+    url: "机场订阅地址
     type: http
     interval: 86400
     health-check:
@@ -37,7 +37,7 @@ proxy-providers:
     proxy: 直连    
 
 # 冰云:
-#    url: "http://192.168.88.6:3008/T3B9dgzBzdRbBF8Aqx7P/download/bingcloud"
+#    url: "机场订阅地址
 #    type: http
 #   interval: 86400
 #   health-check:
@@ -47,7 +47,7 @@ proxy-providers:
 #    proxy: 直连      
   
   ChatGPT:
-    url: "http://192.168.88.6:3008/T3B9dgzBzdRbBF8Aqx7P/download/ChatGPT"
+    url: "机场订阅地址
     type: http
     interval: 86400
     health-check:
@@ -57,7 +57,7 @@ proxy-providers:
     proxy: 直连   
    
   自建tw:
-    url: "http://192.168.88.6:3008/T3B9dgzBzdRbBF8Aqx7P/download/TW"
+    url: "机场订阅地址
     type: http
     interval: 86400
     health-check:
@@ -67,7 +67,7 @@ proxy-providers:
     proxy: 直连
     
   自建us:
-    url: "http://192.168.88.6:3008/T3B9dgzBzdRbBF8Aqx7P/download/US"
+    url: "机场订阅地址
     type: http
     interval: 86400
     health-check:
@@ -77,7 +77,7 @@ proxy-providers:
     proxy: 直连     
     
   自建hk:
-    url: "http://192.168.88.6:3008/T3B9dgzBzdRbBF8Aqx7P/download/HK"
+    url: "机场订阅地址
     type: http
     interval: 86400
     health-check:
@@ -87,7 +87,7 @@ proxy-providers:
     proxy: 直连     
     
   渔云:
-    url: "http://192.168.88.6:3008/T3B9dgzBzdRbBF8Aqx7P/download/cloudfisher"
+    url: "机场订阅地址
     type: http
     interval: 86400
     health-check:
@@ -97,7 +97,7 @@ proxy-providers:
     proxy: 直连
     
   阿拉丁:
-    url: "http://192.168.88.6:3008/T3B9dgzBzdRbBF8Aqx7P/download/aladingnet"
+    url: "机场订阅地址
     type: http
     interval: 86400
     health-check:
