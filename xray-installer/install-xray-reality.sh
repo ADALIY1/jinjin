@@ -3,20 +3,7 @@
 # 📜 本脚本构思参考自：
 #   原文：https://vpsdeck.com/posts/xray-source-install-vless-reality/
 #   作者：Linux Server 频道（t.me/LinuxServer_Channel）
-#   适用于 Debian 12 手动部署 Xray-core + VLESS + REALITY 节点
-
-
-# 📜 本脚本构思参考自：
-#   https://vpsdeck.com/posts/xray-source-install-vless-reality/
-#   手动部署 Xray + VLESS + REALITY 教程优化版本
-#   原始环境基于 Debian 12 + 搬瓦工 The DC9 Plan
-
-
-# 📜 本脚本构思参考自：
-#   https://github.com/XTLS/Xray-core
-#   手动部署 Xray + VLESS + REALITY 教程优化版本
-#   原始环境基于 Debian 12 + 搬瓦工 The DC9 Plan
-#   由 ChatGPT 协助用户优化生成，适合追求极致简洁、安全、可控的科学上网方案
+#   适用于 Debian 12 手动部署 Xray: VLESS-Vision-REALITY 节点
 
 
 set -e
