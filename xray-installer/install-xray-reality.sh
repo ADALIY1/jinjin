@@ -119,6 +119,7 @@ cat <<EOF | sudo tee /etc/xray/config.json
 EOF
 
 echo "⚙️ 写入 systemd 服务..."
+# 📂 配置文件 /etc/xray/config.json 已在前面生成，无需手动编辑
 # ⚙️ 创建 Xray 的 systemd 服务脚本，确保它可以后台运行并自启
 cat <<EOF | sudo tee /etc/systemd/system/xray.service
 [Unit]
