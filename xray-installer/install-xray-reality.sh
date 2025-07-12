@@ -1,5 +1,24 @@
 #!/bin/bash
 
+# 📜 本脚本构思参考自：
+#   原文：https://vpsdeck.com/posts/xray-source-install-vless-reality/
+#   作者：Linux Server 频道（t.me/LinuxServer_Channel）
+#   适用于 Debian 12 手动部署 Xray-core + VLESS + REALITY 节点
+
+
+# 📜 本脚本构思参考自：
+#   https://vpsdeck.com/posts/xray-source-install-vless-reality/
+#   手动部署 Xray + VLESS + REALITY 教程优化版本
+#   原始环境基于 Debian 12 + 搬瓦工 The DC9 Plan
+
+
+# 📜 本脚本构思参考自：
+#   https://github.com/XTLS/Xray-core
+#   手动部署 Xray + VLESS + REALITY 教程优化版本
+#   原始环境基于 Debian 12 + 搬瓦工 The DC9 Plan
+#   由 ChatGPT 协助用户优化生成，适合追求极致简洁、安全、可控的科学上网方案
+
+
 set -e
 
 # 🏷️ 备注、端口、SNI（默认值支持）
@@ -119,7 +138,6 @@ cat <<EOF | sudo tee /etc/xray/config.json
 EOF
 
 echo "⚙️ 写入 systemd 服务..."
-# 📂 配置文件 /etc/xray/config.json 已在前面生成，无需手动编辑
 # ⚙️ 创建 Xray 的 systemd 服务脚本，确保它可以后台运行并自启
 cat <<EOF | sudo tee /etc/systemd/system/xray.service
 [Unit]
