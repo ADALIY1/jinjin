@@ -11,7 +11,7 @@ DOMAIN-SUFFIX,ofiii.com
 DOMAIN-SUFFIX,akamaized.net
 DOMAIN-SUFFIX,api.floors.dev
 # 巴哈姆特规则
-DOMAIN,bahamut.akamaized.net
+DOMAIN-SUFFIX,bahamut.akamaized.net
 DOMAIN-SUFFIX,bahamut.com.tw
 DOMAIN-SUFFIX,digicert.com
 DOMAIN-SUFFIX,gamer.com.tw
