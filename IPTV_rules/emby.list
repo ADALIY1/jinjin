@@ -13,6 +13,8 @@ DOMAIN-SUFFIX,myjellyfin.embylife.xyz
 DOMAIN-SUFFIX,my.liminalnet.site
 DOMAIN-SUFFIX,ch.feiyue.lol
 DOMAIN-SUFFIX,dpx.feiyue.lol
+DOMAIN-SUFFIX,cloudflare.v50.su
+DOMAIN-SUFFIX,cdn.v50.su
 
 # 弹幕
 DOMAIN-SUFFIX,dandanplay.net
