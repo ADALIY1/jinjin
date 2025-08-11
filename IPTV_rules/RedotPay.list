@@ -1,0 +1,4 @@
+# 以下规则走香港节点
+
+# 小红卡
+DOMAIN-SUFFIX,api.redotpay.com
