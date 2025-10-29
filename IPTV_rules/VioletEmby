@@ -1,0 +1,3 @@
+# 以下规则禁止走日本
+DOMAIN-SUFFIX,emby.violet.run
+DOMAIN-SUFFIX,violet.5203166.xyz
