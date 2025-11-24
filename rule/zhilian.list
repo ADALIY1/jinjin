@@ -22,8 +22,12 @@ DOMAIN-SUFFIX,lax.5203166.xyz
 DOMAIN-SUFFIX,test.embyhome.online
 DOMAIN-SUFFIX,emby.sakiko.de
 DOMAIN-SUFFIX,violet.5203166.xyz
+DOMAIN-SUFFIX,cn-1.lyrebirdemby.online
+DOMAIN-SUFFIX,cn-2.lyrebirdemby.online
 IP-CIDR,46.3.109.178/32
 IP-CIDR,211.159.153.75/32
+IP-CIDR,188.172.228.65/32
+IP-CIDR,138.68.236.33/32
 
 # feiyqng直播域名
 DOMAIN-SUFFIX,myip.ipip.net
