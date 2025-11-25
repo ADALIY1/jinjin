@@ -24,6 +24,11 @@ DOMAIN-SUFFIX,emby.sakiko.de
 DOMAIN-SUFFIX,violet.5203166.xyz
 DOMAIN-SUFFIX,cn-1.lyrebirdemby.online
 DOMAIN-SUFFIX,cn-2.lyrebirdemby.online
+DOMAIN-SUFFIX,emby.bangumi.ca
+DOMAIN-SUFFIX,ap-cn01.emby.bangumi.ca
+DOMAIN-SUFFIX,ap-cn02.emby.bangumi.ca
+DOMAIN-SUFFIX,ap-cn03.emby.bangumi.ca
+DOMAIN-SUFFIX,ap-cn04.emby.bangumi.ca
 IP-CIDR,46.3.109.178/32
 IP-CIDR,211.159.153.75/32
 IP-CIDR,188.172.228.65/32
