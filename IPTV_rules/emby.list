@@ -33,5 +33,8 @@ DOMAIN-SUFFIX,cf.bili.rip
 DOMAIN-SUFFIX,zhousanwan.xyz
 DOMAIN-SUFFIX,gm.yezi.my
 
+# 只能日美节点
+DOMAIN-SUFFIX,info.us.kg
+
 # 弹幕
 DOMAIN-SUFFIX,dandanplay.net
