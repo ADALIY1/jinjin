@@ -3,3 +3,5 @@
 # 小红卡
 DOMAIN-SUFFIX,api.redotpay.com
 DOMAIN-SUFFIX,cnt.redotpay.net
+DOMAIN-SUFFIX,apiv2.redotpay.com
+DOMAIN-SUFFIX,redotpay.com
