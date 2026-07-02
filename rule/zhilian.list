@@ -42,6 +42,8 @@ DOMAIN-SUFFIX,7.emby.yun
 DOMAIN-SUFFIX,cdn-hk.longemby.com
 DOMAIN-SUFFIX,pkstream-hk.longemby.top
 DOMAIN-SUFFIX,stream-phoenix.longemby.top
+DOMAIN-SUFFIX,stream-phoenix.longemby.live
+DOMAIN-SUFFIX,stream-gomami-hk.longemby.live
 DOMAIN-SUFFIX,stream-gomami-hk.longemby.top
 DOMAIN-SUFFIX,stream-gomami2-hk.longemby.top
 DOMAIN-SUFFIX,stream-gomami2-hk.longemby.live
